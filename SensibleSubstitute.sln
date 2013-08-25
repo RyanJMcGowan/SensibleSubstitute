@@ -3,15 +3,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleSubstitute", "SensibleSubstitute\SensibleSubstitute.csproj", "{6F7146DA-4393-468D-9EED-3B0FC1D3A223}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleService", "SensibleService\SensibleService.csproj", "{33DF3BB7-F569-4B24-9363-9D6B2F868542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleService.Tests", "SensibleService.Tests\SensibleService.Tests.csproj", "{E408B0F5-63DF-4C38-9516-46431D123A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleComponents", "SensibleComponents\SensibleComponents.csproj", "{04C1B7CC-A352-441B-87B5-B6D43096DBDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Membership", "Membership\Membership.csproj", "{44F390FF-5C16-476E-BEFE-8FE00728BE5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Membership.Tests", "Membership.Tests\Membership.Tests.csproj", "{4F0E253F-5B67-4957-876A-6B839374EAE2}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
+		SccNumberOfProjects = 7
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://sensiblesubstitute.visualstudio.com/defaultcollection
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = SensibleSubstitute\\SensibleSubstitute.csproj
 		SccProjectName1 = SensibleSubstitute/SensibleSubstitute/SensibleSubstitute
 		SccLocalPath1 = SensibleSubstitute
+		SccProjectUniqueName2 = SensibleService\\SensibleService.csproj
+		SccProjectName2 = SensibleSubstitute/SensibleSubstitute/SensibleService
+		SccLocalPath2 = SensibleService
+		SccProjectUniqueName3 = SensibleService.Tests\\SensibleService.Tests.csproj
+		SccProjectName3 = SensibleSubstitute/SensibleSubstitute/SensibleService.Tests
+		SccLocalPath3 = SensibleService.Tests
+		SccProjectUniqueName4 = SensibleComponents\\SensibleComponents.csproj
+		SccProjectName4 = SensibleSubstitute/SensibleSubstitute/SensibleComponents
+		SccLocalPath4 = SensibleComponents
+		SccProjectUniqueName5 = Membership\\Membership.csproj
+		SccProjectName5 = SensibleSubstitute/SensibleSubstitute/Membership
+		SccLocalPath5 = Membership
+		SccProjectUniqueName6 = Membership.Tests\\Membership.Tests.csproj
+		SccProjectName6 = SensibleSubstitute/SensibleSubstitute/Membership.Tests
+		SccLocalPath6 = Membership.Tests
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +47,26 @@ Global
 		{6F7146DA-4393-468D-9EED-3B0FC1D3A223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F7146DA-4393-468D-9EED-3B0FC1D3A223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F7146DA-4393-468D-9EED-3B0FC1D3A223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33DF3BB7-F569-4B24-9363-9D6B2F868542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DF3BB7-F569-4B24-9363-9D6B2F868542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DF3BB7-F569-4B24-9363-9D6B2F868542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DF3BB7-F569-4B24-9363-9D6B2F868542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E408B0F5-63DF-4C38-9516-46431D123A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E408B0F5-63DF-4C38-9516-46431D123A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E408B0F5-63DF-4C38-9516-46431D123A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E408B0F5-63DF-4C38-9516-46431D123A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C1B7CC-A352-441B-87B5-B6D43096DBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C1B7CC-A352-441B-87B5-B6D43096DBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C1B7CC-A352-441B-87B5-B6D43096DBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C1B7CC-A352-441B-87B5-B6D43096DBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F390FF-5C16-476E-BEFE-8FE00728BE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F390FF-5C16-476E-BEFE-8FE00728BE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F390FF-5C16-476E-BEFE-8FE00728BE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F390FF-5C16-476E-BEFE-8FE00728BE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0E253F-5B67-4957-876A-6B839374EAE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0E253F-5B67-4957-876A-6B839374EAE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0E253F-5B67-4957-876A-6B839374EAE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0E253F-5B67-4957-876A-6B839374EAE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
