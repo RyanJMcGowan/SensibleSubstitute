@@ -4,6 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleSubstitute", "SensibleSubstitute\SensibleSubstitute.csproj", "{6F7146DA-4393-468D-9EED-3B0FC1D3A223}"
 EndProject
 Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sensiblesubstitute.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SensibleSubstitute\\SensibleSubstitute.csproj
+		SccProjectName1 = SensibleSubstitute/SensibleSubstitute/SensibleSubstitute
+		SccLocalPath1 = SensibleSubstitute
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
