@@ -1,3 +1,89 @@
 ﻿body {
     padding-top:80px;
 }
+
+.stack-left
+{
+    float:left;
+}
+
+.stack-right
+{
+    float:right;
+}
+.width-1
+{
+    width:9%;
+    float:left
+}
+
+ .width-2
+{
+    width:19%;
+    float:left
+}
+
+.width-3
+{
+    width:29%;
+    float:left
+}
+
+.width-4
+{
+    width:39%;
+    float:left
+}
+
+.width-5
+{
+    width:49%;
+    float:left
+}
+
+.nudge-right
+{
+    margin: 0 8px;
+}
+
+.login-top
+{
+    margin: 5px 0;
+}
+
+.gap-small
+{
+    padding-left:2px;
+    padding-right:2px;
+}
+
+.gap-medium
+{
+    padding-left:8px;
+    padding-right:8px;
+}
+
+.input-group, .btn
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn
+{
+    border-color:#fcc;
+}
+
+.btn-primary
+{
+    background-color:#d55;
+}
+
+.li, .active
+{
+    background-color:#d55;
+    border-right:1px solid #c00;
+    border-left:1px solid #f99;
+}
+
+/************************Bootstrap overrides****************************/

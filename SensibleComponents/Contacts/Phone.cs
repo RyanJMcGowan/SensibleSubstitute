@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SensibleComponents.Contacts
 {
-    public class Phone
+    public class Phone : IComponent
     {
         public int ID { get; set; }
         public int Number { get; set; }

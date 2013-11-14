@@ -1,7 +1,6 @@
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Membership.Tests.dll.config
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Membership.Tests.dll
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Membership.Tests.pdb
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Membership.dll
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Microsoft.Data.Edm.dll
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Microsoft.Data.OData.dll
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
@@ -20,14 +19,6 @@ F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\System.Web.WebPag
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\EntityFramework.dll
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\System.Web.Optimization.dll
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\DotNetOpenAuth.Core.dll
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\DotNetOpenAuth.OpenId.dll
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Membership.pdb
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Newtonsoft.Json.xml
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\System.Net.Http.Formatting.xml
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\System.Web.Helpers.xml
@@ -43,13 +34,6 @@ F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Microsoft.Data.Ed
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Microsoft.Data.OData.xml
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\System.Spatial.xml
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\EntityFramework.xml
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\DotNetOpenAuth.AspNet.xml
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\DotNetOpenAuth.Core.xml
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\DotNetOpenAuth.OAuth.xml
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
-F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\DotNetOpenAuth.OpenId.xml
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
@@ -80,3 +64,5 @@ F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\zh-Hant\System.Sp
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\obj\Debug\Membership.Tests.csprojResolveAssemblyReference.cache
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\obj\Debug\Membership.Tests.dll
 F:\Data\Projects\SensibleSubstitute\Membership.Tests\obj\Debug\Membership.Tests.pdb
+F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\SensibleMembership.dll
+F:\Data\Projects\SensibleSubstitute\Membership.Tests\bin\Debug\SensibleMembership.pdb

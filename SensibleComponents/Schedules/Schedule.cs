@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using SensibleComponents.Posts;
+using SensibleComponents;
 
 namespace SensibleComponents.Schedules
 {
-    public class Schedule
+    public class Schedule : BaseComponent
     {
         public int ID { get; set; }
-        public Post Post { get; set; }
         public DateTime PublishDate { get; set; }
     }
 }

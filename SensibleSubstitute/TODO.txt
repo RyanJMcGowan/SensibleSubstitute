@@ -1,1 +1,16 @@
-﻿1. Bootstrap template.
+﻿- Most Viewed Posts
+- Avatars
+- Implement IComparable to objects as necessary 
+- Trackbacks
+- Design Data in DB. CodeFirst DB generation causes too many issues. Use it for mapping ONLY.
+- Hashtag use?
+
+Admin
+ - Spam protection techniques. Run twice a day. Event Handlers on Comment creation? Rules set in Admin.
+ - Moderator Role
+
+Web API
+- Authorization/Authentication
+- Random/Related posts on front page side bar.
+- Incite users to request becoming an author (unpaid)
+- Newsletter with $ponsered links.

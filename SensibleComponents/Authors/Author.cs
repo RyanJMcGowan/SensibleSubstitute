@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Membership.Models;
+using SensibleMembership.Models;
 using SensibleComponents.Contacts;
 
 namespace SensibleComponents.Authors
 {
-    public class Author
+    public class Author : BaseComponent
     {
         public int ID { get; set; }
-        public Contact ContacntInfo { get; set; }
-        public UserProfile Member { get; set; }
+        public string Name { get; set; }
+        public ContactInfo ContacntInfo { get; set; }
     }
 }

@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SensibleComponents.Contacts
 {
-    public class Email
+    public class Email : IComponent
     {
         public int ID { get; set; }
         public string EmailAddress { get; set; }
@@ -13,11 +13,14 @@ namespace SensibleComponents.Contacts
         public bool IsValid { get; set; }
         public bool IsSubscribed { get; set; }
         public bool IsDoNotContact { get; set; }
+        public bool IsPrimary { get; set; }
+        public ContactInfo Contact { get; set; }
     }
     public enum EmailType
     {
         Work,
         Personal,
         Unknown,
+        Other
     }
 }

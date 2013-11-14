@@ -22,6 +22,14 @@ namespace SensibleSubstitute
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            //Defines additional folders to place Razor views.
+            var razorEngine = ViewEngines.Engines.OfType<RazorViewEngine>().First();
+            razorEngine.ViewLocationFormats = razorEngine.ViewLocationFormats.Concat(new string[] 
+            { 
+                //list Razor folders here.
+                "~/src/app/{1}/{0}.cshtml"
+            }).ToArray();
         }
     }
 }

@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SensibleComponents.Contacts
 {
-    public class Address
+    public class Address : IComponent
     {
         public int ID { get; set; }
         public string Street1 { get; set; }
@@ -15,5 +15,6 @@ namespace SensibleComponents.Contacts
         public string Zip { get; set; }
         public bool IsPublic { get; set; }
         public bool IsMailing { get; set; }
+        public bool IsPrimary { get; set; }
     }
 }

@@ -4,3 +4,6 @@
 }
 
 <h2>Welcome!</h2>
+@if(@ViewContext.Controller.ValueProvider.GetValue("action").RawValue == "Index" && @ViewContext.Controller.ValueProvider.GetValue("controller").RawValue == "Home")
+    {<h3>Home Page!</h3>}
+<div ng-view></div>

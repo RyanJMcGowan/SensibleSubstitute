@@ -9,13 +9,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleService.Tests", "Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleComponents", "SensibleComponents\SensibleComponents.csproj", "{04C1B7CC-A352-441B-87B5-B6D43096DBDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Membership", "Membership\Membership.csproj", "{44F390FF-5C16-476E-BEFE-8FE00728BE5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleMembership", "Membership\SensibleMembership.csproj", "{44F390FF-5C16-476E-BEFE-8FE00728BE5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Membership.Tests", "Membership.Tests\Membership.Tests.csproj", "{4F0E253F-5B67-4957-876A-6B839374EAE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin", "Admin\Admin.csproj", "{D0CF5624-D80D-413C-81DE-ECCD7DCD13DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Tests", "Admin.Tests\Admin.Tests.csproj", "{B7B4C1B2-4DFC-4A59-BE97-B16614040A3E}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
+		SccNumberOfProjects = 9
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://sensiblesubstitute.visualstudio.com/defaultcollection
 		SccLocalPath0 = .
@@ -31,12 +35,18 @@ Global
 		SccProjectUniqueName4 = SensibleComponents\\SensibleComponents.csproj
 		SccProjectName4 = SensibleSubstitute/SensibleSubstitute/SensibleComponents
 		SccLocalPath4 = SensibleComponents
-		SccProjectUniqueName5 = Membership\\Membership.csproj
-		SccProjectName5 = SensibleSubstitute/SensibleSubstitute/Membership
-		SccLocalPath5 = Membership
-		SccProjectUniqueName6 = Membership.Tests\\Membership.Tests.csproj
-		SccProjectName6 = SensibleSubstitute/SensibleSubstitute/Membership.Tests
-		SccLocalPath6 = Membership.Tests
+		SccProjectUniqueName5 = Membership.Tests\\Membership.Tests.csproj
+		SccProjectName5 = SensibleSubstitute/SensibleSubstitute/Membership.Tests
+		SccLocalPath5 = Membership.Tests
+		SccProjectUniqueName6 = Membership\\SensibleMembership.csproj
+		SccProjectName6 = SensibleSubstitute/SensibleSubstitute/Membership
+		SccLocalPath6 = Membership
+		SccProjectUniqueName7 = Admin\\Admin.csproj
+		SccProjectName7 = SensibleSubstitute/SensibleSubstitute/Admin
+		SccLocalPath7 = Admin
+		SccProjectUniqueName8 = Admin.Tests\\Admin.Tests.csproj
+		SccProjectName8 = SensibleSubstitute/SensibleSubstitute/Admin.Tests
+		SccLocalPath8 = Admin.Tests
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +77,14 @@ Global
 		{4F0E253F-5B67-4957-876A-6B839374EAE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F0E253F-5B67-4957-876A-6B839374EAE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F0E253F-5B67-4957-876A-6B839374EAE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0CF5624-D80D-413C-81DE-ECCD7DCD13DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CF5624-D80D-413C-81DE-ECCD7DCD13DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CF5624-D80D-413C-81DE-ECCD7DCD13DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CF5624-D80D-413C-81DE-ECCD7DCD13DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B4C1B2-4DFC-4A59-BE97-B16614040A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B4C1B2-4DFC-4A59-BE97-B16614040A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B4C1B2-4DFC-4A59-BE97-B16614040A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B4C1B2-4DFC-4A59-BE97-B16614040A3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
