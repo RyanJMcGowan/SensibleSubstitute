@@ -1,19 +1,14 @@
-﻿var sensibleApp = angular.module('SensibleApp', [])
+﻿var app = angular.module('SensibleApp');
+var controllers = {};
 
-controllers.BlogController = function ($scope)
-{
-    $scope.Model = {
-        name: 'Hello',
-        other: 'World'
-    }
-}
+controllers.BlogController = function ($scope) {
+    $scope.name = 'Hello';
+    $scope.other = 'Tim. It works';
+};
 
-controllers.OtherController = function ($scope)
-{
-    $scope.Model = {
-        name: 'Hello',
-        other: 'Everyone'
-    }
-}
+controllers.OtherController = function ($scope) {
+    $scope.name = 'Hello';
+    $scope.other = 'Everyone';
+};
 
-sensibleApp.controller(controllers);
+app.controller(controllers);
