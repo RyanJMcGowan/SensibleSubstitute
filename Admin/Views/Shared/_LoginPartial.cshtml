@@ -1,0 +1,13 @@
+﻿@if (Request.IsAuthenticated) {
+    <text>
+        Hello, @Html.ActionLink(User.Identity.Name, "Manage", "Account", routeValues: null, htmlAttributes: new { @class = "username", title = "Manage" })!
+        @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" })) {
+            @Html.AntiForgeryToken()
+            <a href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+        }
+    </text>
+} else {
+    <form method="link" action="/Account/Login">
+<button class="btn col-md-4 dark"><span class="glyphicon glyphicon-off"></span></button>
+        </form>
+}

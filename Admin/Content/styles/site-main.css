@@ -1,0 +1,179 @@
+﻿/*--------------------layout------------------------*/
+html, body
+{
+    height: 100%;
+}
+
+body {
+    padding-top:50px;
+}
+
+.stack-left
+{
+    float:left;
+}
+
+.stack-right
+{
+    float:right;
+}
+.width-1
+{
+    width:9%;
+    float:left
+}
+
+ .width-2
+{
+    width:19%;
+    float:left
+}
+
+.width-3
+{
+    width:29%;
+    float:left
+}
+
+.width-4
+{
+    width:39%;
+    float:left
+}
+
+.width-5
+{
+    width:49%;
+    float:left
+}
+
+.nudge-right
+{
+    margin: 0 8px;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+.login-top
+{
+    margin: 5px 0;
+}
+.fill
+{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+/* --------------------color------------------------*/
+.dark
+{
+    background-color:#222;
+    color:#ccc;
+}
+button.dark
+{
+    background-color:#222;
+    color:#ccc;
+    border:1px solid #ccc; 
+    border-radius:4px;
+}
+.dark:hover
+{
+    background-color:#222;
+    color:#fff;
+}
+.medium
+{
+    background-color:#555;
+    color:#fff;
+}
+.medium.btn-primary
+{
+    background-color:#667;
+    border:none;
+}
+.medium.btn-primary:hover
+{
+    background-color:#667;
+    border:none;
+}
+
+button.medium:hover
+{
+    background-color:#444;
+    color:#fff;
+}
+
+/* -------------Boostrap overrides------------------*/
+.btn, .btn-group-vertical
+{
+    border-radius:0;
+    padding:0;
+}
+.footer
+{
+    height: 40px;
+    position: relative;
+    top: -40px;
+}
+.glyphicon
+{
+    display:inline-block;
+}
+/*--------------------ckeditor-----------------------*/
+#ckeditor
+{
+
+}
+
+
+
+
+/*--------------------special-----------------------*/
+.side-panel-left
+{
+    height: 100%;
+    padding:0;
+}
+.swap:hover .glyphicon
+{
+    opacity:0;
+}
+.swap:hover .btn-text
+{
+    opacity:1;
+}
+.swap .btn-text
+{
+    position:relative;
+    opacity:0;
+    display:block;
+}
+.btn-text
+{
+    position:absolute;
+    margin-top:-1.3em;
+}
+#header-panel
+{
+    padding:8px;
+}
+.label
+{
+    height:28px;
+    padding:10px;
+    margin:4px;
+}
+btn-menu
+{
+
+}

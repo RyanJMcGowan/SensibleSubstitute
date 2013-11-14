@@ -7,6 +7,7 @@ F:\Data\Projects\SensibleSubstitute\SensibleService\bin\Microsoft.Data.OData.dll
 F:\Data\Projects\SensibleSubstitute\SensibleService\bin\Microsoft.Web.Infrastructure.dll
 F:\Data\Projects\SensibleSubstitute\SensibleService\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 F:\Data\Projects\SensibleSubstitute\SensibleService\bin\Newtonsoft.Json.dll
+F:\Data\Projects\SensibleSubstitute\SensibleService\bin\SensibleComponents.dll
 F:\Data\Projects\SensibleSubstitute\SensibleService\bin\System.Net.Http.Formatting.dll
 F:\Data\Projects\SensibleSubstitute\SensibleService\bin\System.Spatial.dll
 F:\Data\Projects\SensibleSubstitute\SensibleService\bin\System.Web.Helpers.dll
@@ -22,6 +23,7 @@ F:\Data\Projects\SensibleSubstitute\SensibleService\bin\System.Web.WebPages.Depl
 F:\Data\Projects\SensibleSubstitute\SensibleService\bin\System.Web.WebPages.dll
 F:\Data\Projects\SensibleSubstitute\SensibleService\bin\System.Web.WebPages.Razor.dll
 F:\Data\Projects\SensibleSubstitute\SensibleService\bin\WebGrease.dll
+F:\Data\Projects\SensibleSubstitute\SensibleService\bin\SensibleComponents.pdb
 F:\Data\Projects\SensibleSubstitute\SensibleService\bin\EntityFramework.xml
 F:\Data\Projects\SensibleSubstitute\SensibleService\bin\Newtonsoft.Json.xml
 F:\Data\Projects\SensibleSubstitute\SensibleService\bin\System.Net.Http.Formatting.xml
