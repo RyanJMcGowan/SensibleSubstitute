@@ -1,9 +1,53 @@
 ﻿@{
     ViewBag.Title = "Sensible Substitute";
     Layout = "~/Views/Shared/_Main.cshtml";
+    
 }
 
-<h2>Welcome!</h2>
-@if(@ViewContext.Controller.ValueProvider.GetValue("action").RawValue == "Index" && @ViewContext.Controller.ValueProvider.GetValue("controller").RawValue == "Home")
-    {<h3>Home Page!</h3>}
-<div ng-view></div>
+@section Head
+{
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+    <title>@ViewBag.Title</title>
+    <!-- Bootstrap core CSS -->
+    @Styles.Render("~/Content/Bootstrap")
+    @Styles.Render("~/Content/site")
+    @Scripts.Render("~/bundles/angular")
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="../../assets/js/html5shiv.js"></script>
+        <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+}
+<div class="hidden-xs"><a href="/">
+    <img src="~/src/assets/images/logo.png" alt="The Sensible Substitute" class="center"/></a></div>
+<div class="navbar navbar-green square" role="navigation">
+      <div class="container">
+
+        <div class="navbar-header">
+            <!-- mobile menu toggle butotn -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <!-- logo -->
+          <a class="visible-xs" href="#"><img src="~/src/assets/images/logo-sm-white.png" alt="Sensible Substitute"/></a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav center">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="news">News</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </div>
+    <div ng-view=""></div>
+

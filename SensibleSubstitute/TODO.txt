@@ -14,3 +14,6 @@ Web API
 - Random/Related posts on front page side bar.
 - Incite users to request becoming an author (unpaid)
 - Newsletter with $ponsered links.
+
+Front End
+- Need to handle 404s so that they behave the same as Angular routing.

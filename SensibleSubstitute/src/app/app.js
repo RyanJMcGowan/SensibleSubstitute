@@ -3,11 +3,15 @@ var SensibleApp = angular.module('SensibleApp', []);
 SensibleApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider)
 {
     $routeProvider.when('/', {
-        templateUrl: '/Partials/Index',
+        templateUrl: '/Partials/home',
         controller: 'BlogController',
     })
-    $routeProvider.when('/Everyone', {
-        templateUrl: '/Partials/Index',
+    $routeProvider.when('/news', {
+        templateUrl: '/Partials/News',
+        controller: 'OtherController',
+    })
+    $routeProvider.when('/contact', {
+        templateUrl: '/Partials/Contact',
         controller: 'OtherController',
     })
     $routeProvider.otherwise({

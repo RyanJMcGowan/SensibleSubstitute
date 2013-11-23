@@ -567,8 +567,10 @@
     <Content Include="src\app\home\home.js" />
     <Content Include="src\app\home\home.spec.js" />
     <Content Include="src\app\home\home.tpl.html" />
-    <Content Include="src\app\partials\partial1.html" />
-    <Content Include="src\app\partials\Partial2.html" />
+    <Content Include="src\app\partials\contact.cshtml" />
+    <None Include="src\app\partials\home.cshtml" />
+    <Content Include="src\assets\images\logo-sm-white.png" />
+    <Content Include="src\assets\images\logo.png" />
     <Content Include="src\index.html" />
     <Content Include="TODO.txt" />
     <Content Include="Web.config" />
@@ -608,6 +610,7 @@
     <Content Include="src\app\home\README.md" />
     <Content Include="src\app\partials\Index.cshtml" />
     <Content Include="src\app\partials\Web.config" />
+    <Content Include="src\app\partials\news.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

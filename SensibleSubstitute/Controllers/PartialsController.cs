@@ -8,13 +8,25 @@ namespace SensibleSubstitute.Controllers
 {
     public class PartialsController : Controller
     {
-        //
-        // GET: /Partials/
 
         public ActionResult Index()
         {
             return View();
         }
 
+        public ActionResult Home()
+        {
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
+        public ActionResult News()
+        {
+            return View();
+        }
     }
 }

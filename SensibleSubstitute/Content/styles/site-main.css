@@ -1,5 +1,11 @@
-﻿body {
-    padding-top:80px;
+﻿body
+{
+    background-color:#f2f2e3 ;
+}
+
+a
+{
+    text-decoration: none;
 }
 
 .stack-left
@@ -10,35 +16,6 @@
 .stack-right
 {
     float:right;
-}
-.width-1
-{
-    width:9%;
-    float:left
-}
-
- .width-2
-{
-    width:19%;
-    float:left
-}
-
-.width-3
-{
-    width:29%;
-    float:left
-}
-
-.width-4
-{
-    width:39%;
-    float:left
-}
-
-.width-5
-{
-    width:49%;
-    float:left
 }
 
 .nudge-right
@@ -79,11 +56,59 @@
     background-color:#d55;
 }
 
-.li, .active
+.active :hover
 {
-    background-color:#d55;
-    border-right:1px solid #c00;
-    border-left:1px solid #f99;
+    color:#FFF;
 }
 
+.active
+{
+    background-color:#667755;
+    border-right:1px solid #556644;
+    border-left:1px solid #889977;
+}
+
+.navbar-green
+{
+    color: white;  
+    background-color: #778866;
+}
+.navbar-green a
+{
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.shadow
+{
+    box-shadow: 2px 2px 2px #CCC;
+}
+/*undo Bootstraps rounding*/
+.square
+{
+    border-radius:0;
+}
+
+.center
+{
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+}
 /************************Bootstrap overrides****************************/
+.nav > li > a:hover,
+.nav > li > a:focus
+{
+  text-decoration: none;
+  background-color: #708060;
+}
+.nav > li.active > a:hover
+{
+  text-decoration: none;
+  background-color: #667755;
+}
+
+.icon-bar
+{
+    background-color:#889977;
+}
