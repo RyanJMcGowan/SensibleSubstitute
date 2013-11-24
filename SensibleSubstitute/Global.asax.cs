@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using SensibleSubstitute.Controllers;
 
 namespace SensibleSubstitute
 {
@@ -31,5 +32,22 @@ namespace SensibleSubstitute
                 "~/src/app/{1}/{0}.cshtml"
             }).ToArray();
         }
+
+        protected void Application_EndRequest()
+        {
+            if (Context.Response.StatusCode == 404)
+            {
+                Response.Clear();
+
+                var rd = new RouteData();
+                //rd.DataTokens["area"] = "AreaName"; // In case controller is in another area
+                rd.Values["controller"] = "Home";
+                rd.Values["action"] = "Index";
+
+                IController c = new HomeController();
+                c.Execute(new RequestContext(new HttpContextWrapper(Context), rd));
+            }
+        }
+
     }
 }
