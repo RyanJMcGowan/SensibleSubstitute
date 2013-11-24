@@ -2,8 +2,8 @@
 var controllers = {};
 
 controllers.BlogController = function ($scope) {
-    $scope.name = 'Hello';
-    $scope.other = 'Tim. It works';
+    $scope.name = 'It';
+    $scope.other = 'works!';
 };
 
 controllers.OtherController = function ($scope) {

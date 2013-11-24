@@ -161,6 +161,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PartialsController.cs" />
+    <Compile Include="Controllers\StoreController.cs" />
     <Compile Include="Controllers\WidgetController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -569,6 +570,7 @@
     <Content Include="src\app\home\home.tpl.html" />
     <Content Include="src\app\partials\contact.cshtml" />
     <None Include="src\app\partials\home.cshtml" />
+    <Content Include="src\app\store\storeController.js" />
     <Content Include="src\assets\images\logo-sm-white.png" />
     <Content Include="src\assets\images\logo.png" />
     <Content Include="src\index.html" />
@@ -610,6 +612,8 @@
     <Content Include="src\app\partials\Index.cshtml" />
     <Content Include="src\app\partials\Web.config" />
     <Content Include="src\app\partials\news.cshtml" />
+    <Content Include="src\app\store\store.spec.js" />
+    <Content Include="src\app\store\partials\store.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

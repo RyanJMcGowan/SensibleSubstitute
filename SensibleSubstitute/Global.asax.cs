@@ -29,7 +29,8 @@ namespace SensibleSubstitute
             razorEngine.ViewLocationFormats = razorEngine.ViewLocationFormats.Concat(new string[] 
             { 
                 //list Razor folders here.
-                "~/src/app/{1}/{0}.cshtml"
+                "~/src/app/{1}/{0}.cshtml",
+                "~/src/app/{1}/partials/{0}.cshtml"
             }).ToArray();
         }
 

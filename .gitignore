@@ -7,9 +7,10 @@
 build/
 
 [Bb]in/
-[Rr]eference/
-
 [Oo]bj/
+SensibleSubstitute/[Bb]in/
+SensibleSubstitute/[Oo]bj/
+[Rr]eference/
 
 *.suo
 *.sln

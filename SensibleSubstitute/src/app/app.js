@@ -14,6 +14,38 @@ SensibleApp.config(['$routeProvider', '$locationProvider', function ($routeProvi
         templateUrl: '/Partials/Contact',
         controller: 'OtherController',
     })
+    $routeProvider.when('/blog', {
+        templateUrl: '/Partials/blog',
+        controller: 'OtherController',
+    })
+    $routeProvider.when('/reviews', {
+        templateUrl: '/Partials/Reviews',
+        controller: 'OtherController',
+    })
+    $routeProvider.when('/playbook', {
+        templateUrl: '/Partials/Playbook',
+        controller: 'OtherController',
+    })
+    $routeProvider.when('/tales', {
+        templateUrl: '/Partials/Tales',
+        controller: 'OtherController',
+    })
+    $routeProvider.when('/tales', {
+        templateUrl: '/Partials/Tales',
+        controller: 'OtherController',
+    })
+    $routeProvider.when('/scoop', {
+        templateUrl: '/Partials/Scoop',
+        controller: 'OtherController',
+    })
+    $routeProvider.when('/letters', {
+        templateUrl: '/Partials/Letters',
+        controller: 'OtherController',
+    })
+    $routeProvider.when('/store', {
+        templateUrl: '/Partials/Store',
+        controller: 'OtherController',
+    })
     $routeProvider.otherwise({
         redirectTo: '/'
     });
