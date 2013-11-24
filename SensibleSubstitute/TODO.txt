@@ -17,3 +17,4 @@ Web API
 
 Front End
 - Need to handle 404s so that they behave the same as Angular routing.
+  (Should just return the main view and let Angular do the routing from the URL.)

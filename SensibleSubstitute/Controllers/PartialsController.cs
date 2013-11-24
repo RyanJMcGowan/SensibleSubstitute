@@ -8,7 +8,6 @@ namespace SensibleSubstitute.Controllers
 {
     public class PartialsController : Controller
     {
-
         public ActionResult Index()
         {
             return View();
