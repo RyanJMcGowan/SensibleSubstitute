@@ -569,6 +569,7 @@
     <Content Include="src\app\home\home.spec.js" />
     <Content Include="src\app\home\home.tpl.html" />
     <Content Include="src\app\partials\contact.cshtml" />
+    <Content Include="src\app\home\Index.cshtml" />
     <None Include="src\app\partials\home.cshtml" />
     <Content Include="src\app\store\storeController.js" />
     <Content Include="src\assets\images\logo-sm-white.png" />
@@ -587,7 +588,7 @@
     <Content Include="Views\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\_Main.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Index-del.cshtml" />
     <Content Include="Views\Shared\_Login.cshtml" />
     <Content Include="Views\Shared\_Menu.cshtml" />
     <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
@@ -618,6 +619,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="src\app\categories\partials\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
