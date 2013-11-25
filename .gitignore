@@ -1,5 +1,6 @@
 *resharper.user
 
+!SensibleSubstitute/src/app/node_modules/*
 [Dd]ebug/
 
 [Rr]elease/
@@ -18,4 +19,3 @@ SensibleSubstitute/[Oo]bj/
 *.tfb
 *.tfn.orig
 *.tfb.orig
-!SensibleSubstitute/src/app/node_modules/*
