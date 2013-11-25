@@ -14,7 +14,7 @@ SensibleSubstitute/[Oo]bj/
 
 *.suo
 *.sln
-*.tf1
+*.tf*
 *.tfb
 *.tfn.orig
 *.tfb.orig

@@ -14,7 +14,7 @@ SensibleApp.config(['$routeProvider', '$locationProvider', function ($routeProvi
         templateUrl: '/Partials/Contact',
         controller: 'OtherController',
     })
-    $routeProvider.when('/blog', {
+    $routeProvider.when('/articles', {
         templateUrl: '/Partials/blog',
         controller: 'OtherController',
     })

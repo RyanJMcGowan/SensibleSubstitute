@@ -19,5 +19,5 @@ Web API
 Front End
 [X] Need to handle 404s so that they behave the same as Angular routing.
   (Should just return the main view and let Angular do the routing from the URL.)
-[ ] Make the index view route to src/app/index.cshtml.
+[X] Make the index view route to src/app/index.cshtml.
 [ ] Figure out the best way to handle categories.
