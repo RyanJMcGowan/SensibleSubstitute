@@ -1,6 +1,6 @@
 *resharper.user
 
-!SensibleSubstitute/src/app/node_modules/*
+!SensibleSubstitute/src/app/node_modules/**
 [Dd]ebug/
 
 [Rr]elease/
