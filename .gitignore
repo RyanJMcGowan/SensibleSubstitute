@@ -18,3 +18,4 @@ SensibleSubstitute/[Oo]bj/
 *.tfb
 *.tfn.orig
 *.tfb.orig
+!SensibleSubstitute/src/app/node_modules/*.*
