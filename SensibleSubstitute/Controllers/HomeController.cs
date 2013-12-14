@@ -13,26 +13,13 @@ namespace SensibleSubstitute.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.Nav = "Home";
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Nav = "About";
             return View();
         }
 
-        public ActionResult Tags()
-        {
-            //Lists Keywords.
-            ViewBag.Nav = "Index";
-            return View();
-        }
-
-        public void Test(List<string> values)
-        {
-            ViewBag.Nav = "Index";
-        }
     }
 }
