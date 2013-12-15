@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleSubstitute", "Sensi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleSubstitute.Tests", "SensibleSubstitute.Tests\SensibleSubstitute.Tests.csproj", "{502AE294-2B19-4683-BBA8-05655C458DF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleSubstituteOld", "SensibleSubstituteOld\SensibleSubstituteOld.csproj", "{6F7146DA-4393-468D-9EED-3B0FC1D3A223}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,10 +61,6 @@ Global
 		{502AE294-2B19-4683-BBA8-05655C458DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{502AE294-2B19-4683-BBA8-05655C458DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{502AE294-2B19-4683-BBA8-05655C458DF8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F7146DA-4393-468D-9EED-3B0FC1D3A223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F7146DA-4393-468D-9EED-3B0FC1D3A223}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F7146DA-4393-468D-9EED-3B0FC1D3A223}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F7146DA-4393-468D-9EED-3B0FC1D3A223}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
