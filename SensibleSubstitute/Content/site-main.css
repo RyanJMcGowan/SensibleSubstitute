@@ -1,0 +1,407 @@
+﻿body
+{
+    background-color:#f2f2e3 ;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Medula One', cursive;
+}
+a
+{
+    text-decoration: none;
+}
+/************************Global Modifiers************************/
+.stack-left
+{
+    float:left;
+}
+.stack-right
+{
+    float:right;
+}
+.nudge-right
+{
+    margin: 0 8px;
+}
+.gap-small
+{
+    padding-left:2px;
+    padding-right:2px;
+}
+.gap-medium
+{
+    padding-left:8px;
+    padding-right:8px;
+}
+.gap-none
+{
+    padding-left:0;
+    padding-right:0;
+}
+.btn
+{
+    border-color:#fcc;
+}
+.btn-primary
+{
+    background-color:#d55;
+}
+.nav-button
+{
+    border: 1px solid #889977;
+}
+.active :hover
+{
+    color:#FFF;
+}
+.active
+{
+    background-color:#667755;
+    border-right:1px solid #556644;
+    border-left:1px solid #889977;
+}
+.green
+{
+    color: white;  
+    background-image: none;
+    background-color: #2b3025;
+}
+.white
+{
+    color: black;  
+    background-image: none;
+    background-color: white;
+}
+/************************Layout******************************/
+.logo
+{
+    position:absolute;
+    float:left;
+    left:0;
+}
+.wrapper
+{
+    width:75%;
+    float:left;
+}
+.grid-left
+{
+    position:absolute;
+    height:100%;
+    width:25%;
+    padding: 0 1px;
+    background-color:#2b3025;
+}
+.grid-feature, .grid-container  
+{
+    margin-left:33.333%;
+    width:100%;
+    padding:0 20px;
+}
+.grid-container
+{
+    padding:0 10px;
+    float:left;
+}
+.grid-tower
+{
+    width:50%;
+    padding:0 10px;
+}
+.login-top
+{
+    margin: 5px 0;
+}
+.feature
+{
+    min-height:350px;
+    margin-bottom:20px;
+    clear:both;
+}
+.feature-img-container
+{
+    position:relative;
+    display:inline-block;
+    width:66.66%;
+    height:100%;
+    min-height:100%;
+    float:left;
+}
+.feature-img
+{
+    width:100%;
+    float:left;
+}
+.preview
+{
+    overflow:hidden;
+    display:block;
+    padding: 0 20px 20px 20px;
+}
+    .preview > p
+    {
+        color: #666;
+    }
+.premiere
+{
+    position:relative;
+    padding: 0px;
+    margin-bottom:20px;
+    min-height:350px;
+}
+    .premiere-img-container
+    {
+        position:relative;
+        background-image:url(/Content/images/001.jpg);
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+        width:100%;
+        height:240px;
+    }
+    .premiere-body
+    {
+        width:100%;
+        padding:0 20px 0 20px;
+        bottom:0;
+        float:left;
+    }
+    .premiere-preview
+    {
+        overflow:hidden;
+        max-height:400px;
+        position:relative;
+        float:left;
+    }
+        .premiere-preview > h3
+        {
+            margin-top:10px;
+        }
+.read-more
+{
+    text-align:center;
+    margin-top:10px;
+    width:100%;
+    background-color:#667755;
+    padding:5px;
+    float:left;
+}
+    .read-more > a
+    {
+        font-family: 'Stint Ultra Condensed', cursive;
+        font-size:18px;
+        display:block;
+        text-decoration:none;
+        color:white;
+        padding:0;
+    }
+.social
+{
+    display:block;
+    bottom:0;
+    padding: 10px 20px;
+    height:40px;
+    width:100%;
+    clear:both;
+}
+.avatar-md
+{
+    width:90px;
+    height:90px;
+    background-color: #BBB;
+    float:left;
+    margin-top:20px;
+    margin-right: 10px;
+    position:absolute;
+    left:-40px;
+}
+.avatar-pusher
+{
+    width:35px;
+    height:90px;
+    background-color: #DDD;
+    float:left;
+    margin:20px 10px 2px 0;
+}
+.avatar-sm
+{
+    width:50px;
+    height:50px;
+    background-color: #BBB;
+    float:left;
+    margin-top:20px;
+    margin-right: 10px;
+    position:absolute;
+    left:-10px;
+}
+.avatar-sm + .avatar-pusher
+{
+    width:26px;
+    height:50px;
+    background-color: #DDD;
+    float:left;
+    margin:20px 5px 2px 0;
+}
+.menu-link li a
+{
+    color: white;
+    text-shadow: -1px -1px 1px #333;
+}
+.shadow
+{
+    box-shadow: 2px 2px 0px #CCC;
+}
+/*undo Bootstraps rounded corners*/
+.square
+{
+    border-radius:0;
+}
+.center-horizontal
+{
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    float:none;
+}
+.center-both
+{
+    position:absolute;
+    left:50%;
+}
+.container-max
+{
+    position:relative;
+    margin-left:0;
+    margin-right:0;
+    max-width:100%;
+}
+
+.menu-list
+{
+    list-style: none;
+}
+/***************************Bootstrap overrides***************************/
+.nav > li > a:hover,
+.nav > li > a:focus
+{
+    text-decoration: none;
+    background-color: #556644;
+}
+.nav > li.active > a:hover
+{
+    text-decoration: none;
+    background-color: #394031;
+}
+.navbar-nav > li
+{
+    font-family: 'Lato', sans-serif;
+    font-size:large;
+}
+.icon-bar
+{
+    background-color:#889977;
+}
+.input-group, .btn
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.menu-group
+{
+    font-family: 'Medula One', cursive;
+    box-shadow:none;
+}
+    .menu-group > a:hover
+    {
+        text-decoration:none;
+        background:linear-gradient(to right, rgba(204,226,179,1) 0%, rgba(255,255,255,1) 180%);
+        color:black;
+    }
+.menu-group-item
+{
+    font-size:x-large;
+    position: relative;
+    display: block;
+    margin-bottom: 1px;
+    background-color: #ffffff;
+    width:100%;
+    padding:0 15px 0 35px;
+    background-color:#fff;
+    color:#556644;
+}
+    .menu-group-item:before
+    {
+        content:"";
+        width:30px;
+        height:100%;
+        background-color:#889977;
+        position:absolute;
+        left:0;
+        top:0;
+    }
+    .menu-group-item:hover:before
+    {
+        background-color:#6e7c5e;
+    }
+/*******************************Development******************************/
+.img-placeholder
+{
+    background-color: #CCC;
+    height:310px;
+}
+.test
+{
+    background-color: #F00;
+}
+/*******************************Responsive*******************************/
+@media (max-width: 767px)
+{
+    .desktop-only
+    {
+        display:none;
+    }
+    .grid-tower
+    {
+        width:100%;
+    }
+    .grid-left
+    {
+        width:40%;
+    }
+    .wrapper
+    {
+        width:60%;
+        margin-left:40%;
+    }
+    .grid-feature, .grid-container
+    {
+        width:100%;
+        margin:auto;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .tablet-or-larger
+    {
+        display:none;
+    }
+    .grid-tower
+    {
+        width:100%;
+    }
+    .grid-feature
+    {
+        margin-left:0;
+    }
+    .grid-container, .wrapper
+    {
+        width:100%;
+        margin:auto;
+    }
+    .premiere-preview
+    {   
+        max-height:300px;
+    }
+}
