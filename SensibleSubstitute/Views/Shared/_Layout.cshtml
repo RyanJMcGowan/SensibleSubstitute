@@ -2,8 +2,7 @@
 <html lang="en">
     <head>
         @RenderSection("Head", required: false)
-        <link href='http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Stint+Ultra+Condensed|Medula+One' rel='stylesheet' type='text/css'>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"">
             <meta name="description" content="">
@@ -29,24 +28,26 @@
             js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
+        <!--
         <div class="hidden-xs"><a href="/">
             <img src="~/Content/images/logo.png" alt="The Sensible Substitute" class="center"/></a></div>
+            -->
+        <!--
         <div class="navbar green square" role="navigation">
             <div class="container">
                 <div class="navbar-header">
-                    <!-- mobile menu toggle butotn -->
                   <button type="button" class="navbar-toggle nav-button" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                    <!-- logo -->
-                  <a class="visible-xs" href="#"><img src="~/Content/images/logo-sm-white.png" alt="Sensible Substitute"/></a>
                 </div>
 
                 <div class="collapse navbar-collapse">
+
                     <div class="nav-justified">
+
                         <ul class="nav navbar-nav col-sm-10 menu-link">
                             <li class="col-sm-3 col-sm-offset-3 text-center"><a href="/">Home</a></li>
                             <li class="col-sm-3 text-center"><a href="news">News</a></li>
@@ -55,22 +56,22 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container container-max">
+        </div> -->
+        <div class="container container-max gap-none">
             <!-- Menu bar -->
-            <div class="col-sm-3 list-group col-xs-12">
-                <a href="articles" class="list-group-item">Articles</a>
-                <a href="news" class="list-group-item">News</a>
-                <a href="reviews" class="list-group-item">Reviews</a>
-                <a href="playbook" class="list-group-item">Playbook</a>
-                <a href="tales" class="list-group-item">Tall Tales</a>
-                <a href="scoop" class="list-group-item">Substitute Scoop</a>
-                <a href="letters" class="list-group-item">Letters To Me</a>
-                <a href="store" class="list-group-item">Resources</a>
+            <div class="col-sm-3 menu-group col-xs-12 tablet-or-larger grid-left">
+                <!-- logo -->
+                <a class="" href="#"><img src="~/Content/images/logo-sm-white.png" alt="Sensible Substitute"/></a>
+                <a href="articles" class="menu-group-item">Articles</a>
+                <a href="news" class="menu-group-item">News</a>
+                <a href="reviews" class="menu-group-item">Reviews</a>
+                <a href="playbook" class="menu-group-item">Playbook</a>
+                <a href="tales" class="menu-group-item">Tall Tales</a>
+                <a href="scoop" class="menu-group-item">Substitute Scoop</a>
+                <a href="letters" class="menu-group-item">Letters To Me</a>
+                <a href="store" class="menu-group-item">Resources</a>
             </div>
-            <div class="col-sm-9">
                 @RenderBody()
-            </div>
         </div>
         <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
         @Scripts.Render("~/bundles/jquery")

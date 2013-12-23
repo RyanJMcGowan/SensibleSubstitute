@@ -80,18 +80,18 @@ namespace SensibleService.Controllers
         }
 
         [HttpPost]
-        public HttpResponseMessage Post(Post post)
+        public HttpResponseMessage Post([FromBody]Post newpost)
         {
-            if (PostServices.Verify(post))
+            if (PostServices.Verify(newpost))
             {
-                if (postDB.GetByID(post.ID) == null)
+                if (postDB.GetByID(newpost.ID) == null)
                 {
-                    if (postDB.Insert(post))
+                    if (postDB.Insert(newpost))
                         return Request.CreateResponse(HttpStatusCode.Created);
                 }
                 else
                 {
-                    if (postDB.Update(post))
+                    if (postDB.Update(newpost))
                         return Request.CreateResponse(HttpStatusCode.Accepted);
                 }
             }

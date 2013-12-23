@@ -1,11 +1,20 @@
 ﻿@model Admin.ViewModels.CreatePostViewModel
+@*//TODO: why doesn't the Viewbag.title not work??*@
+@{
+    ViewBag.Title = "Create a new blog post...";
+}
+    <script src="~/Content/ckeditor/ckeditor.js"></script>
 
-<script src="~/Scripts/jquery-1.8.2.min.js"></script>
-<script src="~/Scripts/jquery.validate.min.js"></script>    
-<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
-<script src="~/Content/ckeditor/ckeditor.js"></script>
+@section scripts{
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>  
+}
 
-@using (Html.BeginForm())
+
+
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { @action = "http://localhost:65213/api/posts/post" }))
 {
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true)
@@ -20,16 +29,16 @@
             @Html.EditorFor(model => model.Title)
             @Html.ValidationMessageFor(model => model.Title)
         </div>
-        <textarea name="ckeditor">&lt;p&gt;Initial value.&lt;/p&gt;</textarea>
+        <textarea name="contents">&lt;p&gt;Initial value.&lt;/p&gt;</textarea>
         <p>
             <input type="submit" value="Create" />
         </p>
     </fieldset>
 }
 <script>
-    CKEDITOR.replace('ckeditor', {
+    CKEDITOR.replace('contents', {
         uiColor: '#227777'
-    } );
+    });
 </script>
 <div>
     @Html.ActionLink("Back to List", "Index")
