@@ -26,6 +26,6 @@ F:\Data\Projects\SensibleSubstitute\SensibleSubstitute\bin\System.Web.Razor.xml
 F:\Data\Projects\SensibleSubstitute\SensibleSubstitute\bin\System.Web.WebPages.xml
 F:\Data\Projects\SensibleSubstitute\SensibleSubstitute\bin\System.Web.WebPages.Deployment.xml
 F:\Data\Projects\SensibleSubstitute\SensibleSubstitute\bin\System.Web.WebPages.Razor.xml
+F:\Data\Projects\SensibleSubstitute\SensibleSubstitute\obj\Debug\SensibleSubstitute.csprojResolveAssemblyReference.cache
 F:\Data\Projects\SensibleSubstitute\SensibleSubstitute\obj\Debug\SensibleSubstitute.dll
 F:\Data\Projects\SensibleSubstitute\SensibleSubstitute\obj\Debug\SensibleSubstitute.pdb
-F:\Data\Projects\SensibleSubstitute\SensibleSubstitute\obj\Debug\SensibleSubstitute.csprojResolveAssemblyReference.cache
